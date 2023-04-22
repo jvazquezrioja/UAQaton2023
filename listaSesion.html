@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lista de sesion</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"> 
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <header id="navigation">
+        <a href="http://www.cjf.gob,mx/" target="_blank" class="logo">
+            <img src="images/logo.png" alt="logo">
+
+        </a>
+        <nav>
+            <a href="" ><i class="bi bi-house-door-fill"></i></a>
+            <a href="" >CONSEJO</a>
+            <a href="index.html" >SERVICIOS</a>
+            <a href="" >SALA DE PRENSA</a>
+            <a href="" >TRANSFERENCIA Y PROTECCIÓN DE DATOS PERSONALES</a>
+    </header>
+    <h1 class="sr-only">Dirección General de Gestión Judicial</h1>
+    <div id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col">
+                    <hr>
+    
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active"><i class="bi bi-house"></i></li>
+                            <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+                        </ol>
+                    </nav>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+            
+            <div class="col-2 barra-lateral align-items-center">
+                <div class="row barra-lateral-row ">
+                    Inicio
+                </div>
+                <div class="row barra-lateral-row">
+                    Misión y Visión
+                </div>
+                <div class="row barra-lateral-row">
+                    Antecedentes
+                </div>
+                <div class="row barra-lateral-row">
+                    Atribuciones
+                </div>
+                <div class="row barra-lateral-row active-rowie">
+                    Servicios y trámites
+                </div>
+                <div class="row barra-lateral-row">
+                    Información relevante
+                </div>
+                <div class="row barra-lateral-row">
+                    Directorio
+                </div>
+            </div>
+            <div class="col">
+                <h1 style = "color: 756a77;">Lista de Sesión</h1>
+                <div>
+                    <div class="borderBox1">Tipo de busqueda</div>
+                    <div class="borderBox2">Circuito</div>
+                    <div class="borderBox3">Órgano Jurisdiccional</div>
+                </div>
+                <br><br>
+                
+                <select id="menu" class="menu1">
+                    <option value="">-- Selecciona --</option>
+                    <option value="opcion1">Circuito</option>
+                    <option value="opcion2">Región</option>
+                </select>
+                <select id="menu" class="menu2">
+                    <option value="">-- Selecciona --</option>
+                    <option value="opcion1">Primer Circuito</option>
+                    <option value="opcion1">Segundo Circuito</option>
+                    <option value="opcion3">Tercer Circuito</option>
+                </select>
+                <select id="menu" class="menu3">
+                    <option value="">-- Selecciona --</option>
+                    <option value="opcion1">Primer Tribunal Colegiado</option>
+                    <option value="opcion2">Segundo Tribunal Colegiado</option>
+                    <option value="opcion3">Tercer Tribunal Colegiado</option>
+                </select>
+                
+                <input type="text" class="search" placeholder="Intoduce el NEUN" onkeypress="showTable()" id="entID">
+                <img id="image" src="" class="imgFuncion"/>
+                <br>
+                <button type="button" class="opcionA"
+                    onclick="show()" id="btnID">
+                    Busqueda Avanzada
+                </button>
+
+                <script>
+                    function show() {
+                    /* Get image and change value of src attribute */         
+                        let image = document.getElementById("image");
+                        image.src ="\\images\\opcionA.png"
+                        document.getElementById("btnID").style.display = "none";
+                    }
+                    // Get the input field
+                    var input = document.getElementById("entID");
+
+                    // Execute a function when the user presses a key on the keyboard
+                    input.addEventListener("keypress", function showTable(event) {
+                    // If the user presses the "Enter" key on the keyboard
+                        if (event.key === "Enter") {
+                            let image = document.getElementById("image");
+                            image.src ="\\images\\tabla.png"
+                            document.getElementById("btnID").style.display = "none";
+                        }
+                    }); 
+                </script>
+          </div>
+          </div>  
+        </div>
+    </div>
+    
+</body>
+</html>
