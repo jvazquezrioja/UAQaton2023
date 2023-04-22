@@ -70,7 +70,7 @@ h1{
   border-style:solid; 
   border-color:#000000; 
   padding: 1em;
-  width: 96px;
+  width: 125px;
   float: left;
   font-size: 12px;
   
@@ -82,7 +82,7 @@ h1{
   border-style:solid; 
   border-color:#000000; 
   padding: 1em;
-  width: 80px;
+  width: 110px;
   float: left;
   font-size: 12px;
   text-align: center;
@@ -93,18 +93,11 @@ h1{
   border-style:solid; 
   border-color:#000000; 
   padding: 1em;
-  width: 118px;
+  width: 143px;
   float: left;
   font-size: 12px;
 }
 
-.search{
-  border-radius: 16px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  width: 800px;
-  height: 25px;
-}
 
 .menu1{
   margin-left: 180px;
@@ -132,8 +125,15 @@ h1{
   border-style:solid; 
   border-color:#000000; 
   padding: 1em;
-  width: 147px;
+  width: 143px;
   font-size: 12px;
+}
+.search{
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 800px;
+  height: 25px;
 }
 
 .opcionA{
