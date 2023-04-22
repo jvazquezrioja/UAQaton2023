@@ -45,6 +45,7 @@ h1{
 
   .borderBox1{
     margin-left: 180px;
+    margin-right: 10px;
     font-size: 12px;
     border-width:3px; 
     border-style:solid; 
@@ -55,6 +56,7 @@ h1{
   }
   .borderBox2{
     font-size: 12px;
+    margin-right: 10px;
     border-width:3px; 
     border-style:solid; 
     border-color:#FF0000; 
@@ -71,10 +73,11 @@ h1{
     width: 120px;
     float: left;
   }
+  
   .Flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
   }
 
   .search{
