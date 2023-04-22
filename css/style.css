@@ -51,4 +51,21 @@ h1{
 
     width: 130px;
   }
+  .borderBox2{
+    border-width:3px; 
+    border-style:solid; 
+    border-color:#FF0000; 
+    padding: 1em;
+
+    width: 130px;
+  }
+  .borderBox3{
+    border-width:3px; 
+    border-style:solid; 
+    border-color:#FF0000; 
+    padding: 1em;
+
+    width: 130px;
+  }
+  
 
