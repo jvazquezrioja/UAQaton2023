@@ -16,6 +16,10 @@ header{
     align-items: center;
     padding: 10px;
 }
+.sr-only{
+    display: flex;
+    justify-content: center;
+}
 .logo{
     display: flex;
     
@@ -33,8 +37,9 @@ nav a:hover{
     color: #2A8DED;
 }
 
-h1{
-    margin-left: 250px;
+.a{
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -42,18 +47,41 @@ h1{
     margin-left: 250px;
     margin-right: 250px;
   }
-
+  .box1{
+    border-width: 4px;
+    padding: 1em;
+    border-style: solid;
+    border-color: blue;
+  }
   .borderBox1{
+<<<<<<< HEAD
+=======
     margin-left: 180px;
     margin-right: 10px;
     font-size: 12px;
+>>>>>>> 8bbd8eccbec3bde887330d267fc04dbba7817584
     border-width:3px; 
     border-style:solid; 
+<<<<<<< HEAD
     border-color:#871c1c00; 
     padding: 10px;
     width: 96px;
     float: left;
+=======
+    border-color:#a80000; 
+    padding: 1em;
+    width: 100px;
+>>>>>>> a48dcaf8f3e32acf2a930e26d6b47df0fe831a61
   }
+<<<<<<< HEAD
+  .principio{
+    display: flex;
+    align-items: flex-start;
+}
+  .izquierda{
+    display: flex;
+    flex-direction: column;
+=======
   .borderBox2{
     font-size: 12px;
     margin-right: 10px;
@@ -73,14 +101,20 @@ h1{
     width: 120px;
     float: left;
   }
-
-  .search{
-    border-radius: 16px;
-    margin-left: 90px;
-    padding: 6px;
-    border: solid;
-    margin-top: 8px;
-    font-size: 17px;
-    width: 550px;
-  }
+<<<<<<< HEAD
+=======
   
+  .Flex{
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+>>>>>>> 8bbd8eccbec3bde887330d267fc04dbba7817584
+  }
+  .derecho{
+    display: flex;
+    align-items: flex-start;
+  }  
+ 
+
+>>>>>>> a48dcaf8f3e32acf2a930e26d6b47df0fe831a61
+
