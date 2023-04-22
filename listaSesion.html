@@ -67,14 +67,13 @@
                 </div>
             </div>
             <div class="col">
-
                 <h1 style = "color: 756a77;">Lista de Sesión</h1>
                 <div>
                     <div class="borderBox1">Tipo de busqueda</div>
                     <div class="borderBox2">Circuito</div>
                     <div class="borderBox3">Órgano Jurisdiccional</div>
                 </div>
-                <br><br><br>
+                <br><br>
                 
                 <select id="menu" class="menu1">
                     <option value="">-- Selecciona --</option>
@@ -94,10 +93,10 @@
                     <option value="opcion3">Tercer Tribunal Colegiado</option>
                 </select>
                 
-                <input type="text" class="search" placeholder="Intoduce el NEUN">
-                <img id="image" src="" class="opcionA" />
+                <input type="text" class="search" placeholder="Intoduce el NEUN" onkeypress="showTable()" id="entID">
+                <img id="image" src="" class="imgFuncion"/>
                 <br>
-                <button type="button"
+                <button type="button" class="opcionA"
                     onclick="show()" id="btnID">
                     Busqueda Avanzada
                 </button>
@@ -109,6 +108,18 @@
                         image.src ="\\images\\opcionA.png"
                         document.getElementById("btnID").style.display = "none";
                     }
+                    // Get the input field
+                    var input = document.getElementById("entID");
+
+                    // Execute a function when the user presses a key on the keyboard
+                    input.addEventListener("keypress", function showTable(event) {
+                    // If the user presses the "Enter" key on the keyboard
+                        if (event.key === "Enter") {
+                            let image = document.getElementById("image");
+                            image.src ="\\images\\tabla.png"
+                            document.getElementById("btnID").style.display = "none";
+                        }
+                    }); 
                 </script>
           </div>
           </div>  
