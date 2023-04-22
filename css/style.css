@@ -32,3 +32,12 @@ nav a{
 nav a:hover{
     color: #2A8DED;
 }
+
+h1{
+    margin-left: 250px;
+}
+
+  .row{
+    margin-left: 250px;
+    margin-right: 250px;
+  }
