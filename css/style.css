@@ -73,12 +73,6 @@ h1{
     width: 120px;
     float: left;
   }
-  
-  .Flex{
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
-  }
 
   .search{
     border-radius: 16px;
