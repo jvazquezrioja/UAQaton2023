@@ -54,12 +54,19 @@ nav a:hover{
     border-color: blue;
   }
   .borderBox1{
+<<<<<<< HEAD
+=======
+    margin-left: 180px;
+    margin-right: 10px;
+    font-size: 12px;
+>>>>>>> 8bbd8eccbec3bde887330d267fc04dbba7817584
     border-width:3px; 
     border-style:solid; 
     border-color:#a80000; 
     padding: 1em;
     width: 100px;
   }
+<<<<<<< HEAD
   .principio{
     display: flex;
     align-items: flex-start;
@@ -67,6 +74,32 @@ nav a:hover{
   .izquierda{
     display: flex;
     flex-direction: column;
+=======
+  .borderBox2{
+    font-size: 12px;
+    margin-right: 10px;
+    border-width:3px; 
+    border-style:solid; 
+    border-color:#FF0000; 
+    padding: 10px;
+    width: 40px;
+    float: left;
+  }
+  .borderBox3{
+    font-size: 12px;
+    border-width:3px; 
+    border-style:solid; 
+    border-color:#FF0000; 
+    padding: 10px;
+    width: 120px;
+    float: left;
+  }
+  
+  .Flex{
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+>>>>>>> 8bbd8eccbec3bde887330d267fc04dbba7817584
   }
   .derecho{
     display: flex;
