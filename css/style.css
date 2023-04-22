@@ -196,5 +196,5 @@ ul, ol {
 }
 .under:hover{
   text-decoration: underline;
-  
+  cursor: pointer;
 }
