@@ -30,7 +30,7 @@
             <div class="row">
                 <hr>
                 <img src="images\home.png" width="18" height="18">
-                <i>/Inicio</i>
+                <i>/ Inicio</i>
                 <hr>
 
                 <h1 style = "color: 756a77;">Lista de Sesión</h1>
@@ -38,9 +38,43 @@
                     <div class="borderBox1">Tipo de busqueda</div>
                     <div class="borderBox2">Circuito</div>
                     <div class="borderBox3">Órgano Jurisdiccional</div>
-                    <span class="stretch"></span>
                 </div>
-
+                <br><br><br>
+                
+                <select id="menu" class="menu1">
+                    <option value="">-- Selecciona --</option>
+                    <option value="opcion1">Circuito</option>
+                    <option value="opcion2">Región</option>
+                </select>
+                <select id="menu" class="menu2">
+                    <option value="">-- Selecciona --</option>
+                    <option value="opcion1">Primer Circuito</option>
+                    <option value="opcion1">Segundo Circuito</option>
+                    <option value="opcion3">Tercer Circuito</option>
+                </select>
+                <select id="menu" class="menu3">
+                    <option value="">-- Selecciona --</option>
+                    <option value="opcion1">Primer Tribunal Colegiado</option>
+                    <option value="opcion2">Segundo Tribunal Colegiado</option>
+                    <option value="opcion3">Tercer Tribunal Colegiado</option>
+                </select>
+                
+                <input type="text" class="search" placeholder="Intoduce el NEUN">
+                <img id="image" src="" class="opcionA" />
+                <br>
+                <button type="button"
+                    onclick="show()" id="btnID">
+                    Busqueda Avanzada
+                </button>
+ 
+                <script>
+                    function show() {
+                    /* Get image and change value of src attribute */         
+                        let image = document.getElementById("image");
+                        image.src ="\\images\\opcionA.png"
+                        document.getElementById("btnID").style.display = "none";
+                    }
+                </script>
             
             </div>
         </div>
