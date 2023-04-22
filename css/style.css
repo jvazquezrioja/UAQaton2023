@@ -36,5 +36,12 @@ nav a:hover{
     background-color: #F5F5F5;
 }
 .barra-lateral-row{
-    padding: 10px 0px;
+    padding: 10px 15px;
+
+}
+.active-rowie{
+    background-color: #FFFFFF;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
 }
