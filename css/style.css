@@ -44,32 +44,46 @@ h1{
   }
 
   .borderBox1{
+    margin-left: 180px;
+    font-size: 12px;
     border-width:3px; 
     border-style:solid; 
     border-color:#FF0000; 
-    padding: 1em;
-
-    width: 130px;
+    padding: 10px;
+    width: 96px;
+    float: left;
   }
   .borderBox2{
+    font-size: 12px;
     border-width:3px; 
     border-style:solid; 
     border-color:#FF0000; 
-    padding: 1em;
-
-    width: 130px;
+    padding: 10px;
+    width: 40px;
+    float: left;
   }
   .borderBox3{
+    font-size: 12px;
     border-width:3px; 
     border-style:solid; 
     border-color:#FF0000; 
-    padding: 1em;
-
-    width: 130px;
+    padding: 10px;
+    width: 120px;
+    float: left;
   }
   .Flex{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
+  .search{
+    border-radius: 16px;
+    margin-left: 90px;
+    padding: 6px;
+    border: solid;
+    margin-top: 8px;
+    font-size: 17px;
+    width: 550px;
+  }
+  
