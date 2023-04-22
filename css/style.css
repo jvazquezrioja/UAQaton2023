@@ -54,9 +54,12 @@ nav a:hover{
     border-color: blue;
   }
   .borderBox1{
+<<<<<<< HEAD
+=======
     margin-left: 180px;
     margin-right: 10px;
     font-size: 12px;
+>>>>>>> 8bbd8eccbec3bde887330d267fc04dbba7817584
     border-width:3px; 
     border-style:solid; 
 <<<<<<< HEAD
@@ -70,15 +73,6 @@ nav a:hover{
     width: 100px;
 >>>>>>> a48dcaf8f3e32acf2a930e26d6b47df0fe831a61
   }
-<<<<<<< HEAD
-  .principio{
-    display: flex;
-    align-items: flex-start;
-}
-  .izquierda{
-    display: flex;
-    flex-direction: column;
-=======}
   .borderBox2{
     font-size: 12px;
     margin-right: 10px;
