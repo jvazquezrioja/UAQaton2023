@@ -45,3 +45,6 @@ nav a:hover{
     border-left: 1px solid black;
     border-bottom: 1px solid black;
 }
+.grande{
+    padding: 10px 25px;
+}
