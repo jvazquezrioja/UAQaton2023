@@ -35,10 +35,20 @@ nav a:hover{
 
 h1{
     margin-left: 250px;
+
 }
 
   .row{
     margin-left: 250px;
     margin-right: 250px;
+  }
+
+  .borderBox1{
+    border-width:3px; 
+    border-style:solid; 
+    border-color:#FF0000; 
+    padding: 1em;
+
+    width: 130px;
   }
 
